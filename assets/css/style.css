@@ -1,0 +1,59 @@
+/*Styling for the html file*/
+body{
+    color:white;
+    font-family:Myriad Pro;
+}
+
+#top-div{
+    background-image: linear-gradient(#32be29,#78d15c);
+    border-radius:5px; 
+    margin-right:20px;
+}
+
+#top-div a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link{
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    text-align: center;
+    color:white !important;
+    font-weight:bold;
+    border-right: 1px solid white;
+}
+
+nav{
+    background-image: linear-gradient(#e5e5e5,#959595);
+    border:none !important;
+    border-radius: 0 !important;
+    margin-top:20px;
+}
+
+.active, li:hover{
+    background-image: linear-gradient(#32be29,#78d15c);
+    border:2px solid #11b500;
+}
+
+#left-box{
+    display: inline-block;
+    border:5px solid white;
+    border-right:none;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#text{
+    font-size:9.5px;
+    margin-top:30px;
+    font:Myriad Pro;
+    font-weight:bold;
+}
+
+footer{
+    background-image: linear-gradient(#e5e5e5,#959595);
+    padding-left: 20px;
+    margin-left:-15px;
+    height:30px;
+}
